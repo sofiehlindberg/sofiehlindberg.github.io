@@ -1,0 +1,154 @@
+/*GLOBAL*/
+
+Body {
+    font-family: Century Gothic, verdana;
+}
+
+}
+
+/*MOBILE*/
+
+@media (max-width: 767) {
+    width: 100%;
+}
+
+
+}
+
+@media (min-width: 768) and (max-width: 979) {
+    width: 33, 33%
+}
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.header {}
+
+.logo {
+    width: 35%;
+    margin-left: 35%;
+    margin-right: 30%;
+    display: inline;
+    display: block;
+}
+
+/*NAVIGATION*/
+
+ul {
+    text-align: center;
+    color: #3f3217;
+}
+
+.nav {
+    display: inline-block;
+    color: #3f3217;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3217;
+}
+
+/*BODY*/
+
+body {
+    background-color: #fff9ee;
+}
+
+.topcontainer {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.cafebillede {
+    flex: 2;
+    order: 1;
+    width: 55%;
+    height: 55%;
+    padding-right: 2%;
+}
+
+.omcafeen {
+    flex: 1;
+    order: 2;
+}
+
+.senesteartikler {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    padding-bottom: 5%;
+}
+
+.billede1 {
+    flex: 1;
+    width: 80%;
+    height: 80%;
+}
+
+.billede2 {
+    flex: 1;
+    width: 80%;
+    height: 80%;
+}
+
+.billede3 {
+    flex: 1;
+    width: 80%;
+    height: 80%;
+}
+
+
+#margin {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*FOOTER*/
+
+#footer {
+    /*text-align: center;*/
+    border: 2px solid #3f3217;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.om_os {
+    text-align: justify;
+    margin-left: 50px;
+    flex: 1;
+    order: 1;
+    justify-content: space-around;
+}
+
+.tomflexbox {
+    flex: 1;
+    order: 2;
+    justify-content: space-around;
+}
+
+.foelg_os {
+    flex: 1.5;
+    order: 3;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ikoner {
+    height: 40px;
+    width: 40px;
+}
