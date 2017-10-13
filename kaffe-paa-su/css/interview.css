@@ -1,0 +1,112 @@
+/*GLOBAL*/
+
+Body {
+    font-family: Century Gothic, verdana;
+}
+
+}
+
+/*MOBILE*/
+
+@media (max-width: 767) {
+    width: 100%;
+}
+
+}
+
+@media (min-width: 768) and (max-width: 979) {
+    width: 33, 33%
+}
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.header {}
+
+.logo {
+    width: 35%;
+    margin-left: 35%;
+    margin-right: 30%;
+    display: inline;
+    display: block;
+}
+
+/*NAVIGATION*/
+
+ul {
+    text-align: center;
+    color: #3f3217;
+}
+
+.nav {
+    display: inline-block;
+    color: #3f3217;
+    text-decoration: none;
+}
+
+/*BODY*/
+
+body {
+    background-color: #fff9ee;
+}
+
+.kolonne {
+    column-count: 3;
+}
+
+article {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+.billeder {
+    width: 100%;
+}
+
+/*FOOTER*/
+
+#footer {
+    /*text-align: center;*/
+    border: 2px solid #3f3217;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.om_os {
+    text-align: justify;
+    margin-left: 50px;
+    flex: 1;
+    order: 1;
+    justify-content: space-around;
+}
+
+.tomflexbox {
+    flex: 1;
+    order: 2;
+    justify-content: space-around;
+}
+
+.foelg_os {
+    flex: 1.5;
+    order: 3;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ikoner {
+    height: 40px;
+    width: 40px;
+}
